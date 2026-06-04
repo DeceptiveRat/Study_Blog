@@ -1,3 +1,14 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "defaultViewMode": "preview",
+  "foldIndent": true,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "livePreview": false,
+  "vimMode": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "smartIndentList": false
 }
