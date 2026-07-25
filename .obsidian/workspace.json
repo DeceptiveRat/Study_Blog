@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "737bc1281563c113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File System Forensics/Post 2 - attacking AD environment.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Post 2 - attacking AD environment"
-            }
-          },
-          {
             "id": "454ccd399953a8f5",
             "type": "leaf",
             "state": {
@@ -197,12 +183,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "737bc1281563c113",
+  "active": "e1b90d5fa9d0afd1",
   "lastOpenFiles": [
+    "Note Format.md",
+    "CS/eBPF.md",
+    "CS",
+    "한국어_자료/자료 2 - 디지털 증거 수집.md",
+    "한국어_자료/자료 1 - 디지털 포렌식이란?.md",
+    "File System Forensics/Post 2 - attacking AD environment.md",
+    "Memory Forensics/Post 2 - Notepad contents.md",
+    "Memory Forensics/Post 5 - ___.md",
+    "Memory Forensics/Post 5 files/pattern_extractor code.md",
+    "Memory Forensics/Post 5 - ___.md~",
+    "Memory Forensics/4913",
+    "Memory Forensics/Post 3 - Notepad contents 2.md",
+    "Memory Forensics/[HIDE]Scenario 5 notes.md~",
+    "Memory Forensics/[HIDE]Scenario 5 notes.md",
+    "Memory Forensics/[HIDE]Scenario 2 notes.md",
     "File System Forensics/Post 2 - attacking AD environment.md~",
     "File System Forensics/Post 1 - recovering deleted data from FAT file system.md",
-    "File System Forensics/Post 2 - attacking AD environment.md",
-    "Note Format.md",
     "File System Forensics/4913",
     "File System Forensics/Post 2 files/AppCompatCache_exes.png",
     "File System Forensics/Post 2 files/SRUM_error2.png",
@@ -215,16 +214,12 @@
     "File System Forensics/Post 2 files/LogFile_creation.png",
     "File System Forensics/Post 2 files/Jrnl_cache_files.png",
     "Memory Forensics/Post 1 - downloader and keylogger.md",
-    "Memory Forensics/Post 3 - Notepad contents 2.md",
     "Memory Forensics/Post 4 - Kakaotalk.md",
     "File System Forensics/Post 2 files/Webserver files.md",
     "File System Forensics/Post 2 files/Webserver files.md~",
     "File System Forensics/Post 2 files/4913",
     "File System Forensics/Post 2 files/Untitled.md",
     "File System Forensics/Post 2 files/index.html~",
-    "File System Forensics/Post 2 images/index.html",
-    "File System Forensics/Post 2 files",
-    "Memory Forensics/Post 2 - Notepad contents.md",
-    "Memory Forensics/[HIDE]Scenario 5 notes.md"
+    "File System Forensics/Post 2 images/index.html"
   ]
 }
