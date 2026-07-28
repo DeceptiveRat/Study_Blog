@@ -143,6 +143,11 @@ if (!isset($_SESSION['is_admin']) || $_SESSION['is_admin'] !== true) {
 </html>
 ```
 
+### assigning more IPs to network interface
+``` sh
+for i in {20..50}; do for j in {31..112}; do sudo ip addr add 1.1.$i.$j/24 dev [interface]; done; done
+```
+
 ### simulate.py
 ``` python
 import requests
@@ -232,7 +237,7 @@ for _ in range(0,100):
 		TARGET_URL += "/index.html"
 
 	# choose source IP
-	chosen_source_ip = "210.123" + str(random.randrange(20,51))+"."+str(random.randrange(31,113))
+	chosen_source_ip = "1.1." + str(random.randrange(20,51))+"."+str(random.randrange(31,113))
 	# choose user agent
 	chosen_user_agent = random.choice(USER_AGENTS)
 	headers = {

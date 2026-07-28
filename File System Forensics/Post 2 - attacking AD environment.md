@@ -61,7 +61,9 @@ sudo certbot --apache
 ###### Spoofing Apache access logs
 To keep the challenge from being too easy for the investigators, I decided to add some fake access logs. I could just create a log generator and copy and paste that log into `/var/log/apache2/access.log`, but I wanted it to be more authentic.
 
-I was thinking about how to do this when I found out I could spoof IP addresses using IP Aliasing. I created a host-only network for the webserver VM with IP range 1.1.0.0./16, which contains the attacking machine IP, created another Linux machine with multiple IPs assigned, and used a Python script to test this. Sure enough, I was able to create access logs from multiple IPs with just 1 machine. The Python script can be found at [[Webserver files]].
+I was thinking about how to do this when I found out I could spoof IP addresses using IP Aliasing. I created a host-only network for the webserver VM with IP range 1.1.0.0./16, which contains the attacking machine IP, created another Linux machine with multiple IPs assigned, and used a Python script to test this. Sure enough, I was able to create access logs from multiple IPs with just 1 machine. 
+
+This was done by (1) assigning more IPs to the attacking machine network interface (2) adding "deceptiverat.xyz" to `/etc/hosts` with IP `1.1.0.4` (3) using a python script to create and send spoofed packets. The shell command for assigning more IPs and the Python script can be found at [[Webserver files]].
 
 Unfortunately, this meant I had to disconnect the webserver from the Internet (because it would have to be connected to the host-only network) when I wanted to add benign logs, but I figured we could pause the attack every once in a while to add benign logs. 
 
